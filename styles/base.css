@@ -15,7 +15,15 @@ header {
      
 }
 
+img{
+    width: 200px;
+    height: 200px;
+}
 
+header img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
 
 nav {
     background-color: #333;
