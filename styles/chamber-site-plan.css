@@ -1,0 +1,49 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #009688;
+}
+
+h2 {
+  color: #009688;
+}
+
+/* Add more styles as needed */
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Define specific styles for your color schema */
+#site-name {
+  background-color: #009688;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#scenarios ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+/* Add more specific styles as needed */
