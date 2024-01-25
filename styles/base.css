@@ -6,6 +6,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+     transition: background-color 0.5s ease;
 }
 
 header {
@@ -26,7 +27,7 @@ header img {
 }
 
 nav {
-    background-color: #333;
+    background-color: #ffffff;
 }
 
 nav ul {
@@ -139,6 +140,19 @@ nav {
 .active::before {
     content: "📍";
     /* just a wayfinding symbol for the user */
+}
+
+
+body.dark-mode {
+    background-color: #000000;
+    color: #fff;
+}
+
+
+
+#toggleDarkMode {
+    float: right;
+    margin-top: 10px;
 }
 
 
