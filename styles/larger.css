@@ -6,12 +6,34 @@
     nav ul {
         display: flex;
         flex-direction: row;
+        float:right;
     }
 
     nav li {
-        margin-right: 20px;
+        margin-right: 50px;
         margin-bottom: 0;
     }
+
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+
+}
+
+main>h2 {
+    grid-column: span 2;
+}
+
+main>.hero-image {
+    grid-column: span 2;
+}
+
+
+main>.map-hero {
+    grid-column: span 2;
+}
 
     main {
         max-width: 1200px; 
@@ -48,6 +70,6 @@
 
         .navigation a {
             display: block;
-            flex: 1 1 100%;
+            flex: 100%;
         }
 }

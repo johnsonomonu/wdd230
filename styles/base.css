@@ -1,31 +1,82 @@
-
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
     color: #333;
     margin: 0;
     padding: 0;
-     transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
 }
 
+.hero-image {
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+    /* Adjust the height as needed */
+}
+
+.hero-image img,
+.map-hero iframe {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Header Styles */
 header {
     display: flex;
     align-items: center;
     padding: 10px;
-     
-}
-
-img{
-    width: 200px;
-    height: 200px;
 }
 
 header img {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
+
+/* Add these styles in your existing CSS */
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    white-space: nowrap;
+    /* Prevent text wrapping */
+}
+
+/* Media query for smaller screens, adjust as needed */
+@media screen and (max-width: 600px) {
+    .overlay-text {
+        font-size: 18px;
+    }
+}
+
+
+/* Navigation Styles */
 nav {
     background-color: #ffffff;
 }
@@ -45,33 +96,30 @@ nav a {
     color: white;
 }
 
+/* Main Styles */
 main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
+/* Card Styles */
 .card {
     border: 1px solid #ddd;
     padding: 10px;
     margin-bottom: 20px;
+    box-shadow: darkgoldenrod;
 }
 
+/* Footer Styles */
 footer {
-   color: #dad7d7;
-   background-color: #420537;
-   ;
+    color: #dad7d7;
+    background-color: #420537;
     padding: 10px;
     text-align: center;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Heading Styles */
 h1 {
     text-align: left;
     font-family: times, serif;
@@ -86,12 +134,12 @@ h2 {
     margin: 1rem;
 }
 
+/* Responsive Navigation Styles */
 nav {
-    max-width: 700px;
+    
     margin: 1rem auto;
 }
 
-/* small view navigation */
 #menu {
     font-size: 1.5rem;
     border: 0;
@@ -113,8 +161,10 @@ nav {
 .navigation {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    /* Align items to the center horizontally */
     list-style: none;
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -124,6 +174,7 @@ nav {
     text-align: center;
     text-decoration: none;
     color: #fff;
+    align-content: center;
 }
 
 .navigation a:hover {
@@ -132,28 +183,21 @@ nav {
     font-weight: 700;
 }
 
-/* when the button is clicked - the open class is toggled (added/removed) */
 .open a {
     display: block;
 }
 
 .active::before {
     content: "📍";
-    /* just a wayfinding symbol for the user */
 }
 
-
+/* Dark Mode Styles */
 body.dark-mode {
     background-color: #000000;
     color: #fff;
 }
 
-
-
 #toggleDarkMode {
     float: right;
     margin-top: 10px;
 }
-
-
-
