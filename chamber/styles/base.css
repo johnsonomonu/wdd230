@@ -1,5 +1,5 @@
 /* Additional CSS for Hero Image */
-header {
+.nav-container {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -60,9 +60,9 @@ nav {
 /* Additional CSS for Call to Action */
 .cta {
     background-color: #ffffff;
-    /* Background color for the CTA section */
+    
     color: #fff;
-    /* Text color for the CTA section */
+    
     text-align: center;
     padding: 20px;
 }
@@ -75,9 +75,9 @@ nav {
 .cta-button {
     display: inline-block;
     background-color: #420537;
-    /* Background color for the CTA button */
+   
     color: #fff;
-    /* Text color for the CTA button */
+    
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
@@ -87,13 +87,44 @@ nav {
 
 .cta-button:hover {
     background-color: #420537;
-    /* Hover background color for the CTA button */
     color: #fff;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: darkgoldenrod;
 }
 
 
 
+/* Additional CSS for Discover page */
+.grid-container {
+    display: grid;
+ 
+    grid-gap: 20px;
+}
 
+.sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+
+ 
 footer {
     color: #dad7d7;
     background-color: #420537;
@@ -101,3 +132,6 @@ footer {
     padding: 10px;
     text-align: center;
 }
+
+
+
