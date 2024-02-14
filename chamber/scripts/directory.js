@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   const membersContainer = document.getElementById("members-container");
+  const gridViewBtn = document.getElementById("grid-view");
+  const listViewBtn = document.getElementById("list-view");
+
+  let isGridView = true; // Flag to track current view state
 
   // Load members data from JSON
   fetch("data/members.json")
@@ -30,4 +34,20 @@ document.addEventListener("DOMContentLoaded", function () {
       membersContainer.appendChild(memberElement);
     });
   }
+
+  // Function to toggle between grid and list views
+  function toggleView() {
+    if (isGridView) {
+      membersContainer.classList.remove("members-list");
+      membersContainer.classList.add("members-grid");
+    } else {
+      membersContainer.classList.remove("members-grid");
+      membersContainer.classList.add("members-list");
+    }
+    isGridView = !isGridView; // Toggle the view state
+  }
+
+  // Add event listener to the toggle buttons
+  gridViewBtn.addEventListener("click", toggleView);
+  listViewBtn.addEventListener("click", toggleView);
 });

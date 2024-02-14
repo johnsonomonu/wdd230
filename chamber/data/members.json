@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Company A",
+    "address": "123 Main Street",
+    "phone": "555-1234",
+    "website": "http://www.companyA.com",
+    "membershipLevel": "Gold",
+    "image": "companyA.jpg"
+  },
+  {
+    "name": "Company B",
+    "address": "456 Elm Street",
+    "phone": "555-5678",
+    "website": "http://www.companyB.com",
+    "membershipLevel": "Silver",
+    "image": "companyB.jpg"
+  },
+  {
+    "name": "Company C",
+    "address": "789 Oak Street",
+    "phone": "555-9101",
+    "website": "http://www.companyC.com",
+    "membershipLevel": "Bronze",
+    "image": "companyC.jpg"
+  },
+  {
+    "name": "Company D",
+    "address": "1011 Pine Street",
+    "phone": "555-1213",
+    "website": "http://www.companyD.com",
+    "membershipLevel": "Gold",
+    "image": "companyD.jpg"
+  },
+  {
+    "name": "Company E",
+    "address": "1315 Maple Street",
+    "phone": "555-1415",
+    "website": "http://www.companyE.com",
+    "membershipLevel": "Platinum",
+    "image": "companyE.jpg"
+  }
+]
