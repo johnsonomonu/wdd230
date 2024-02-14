@@ -201,3 +201,26 @@ body.dark-mode {
     float: right;
     margin-top: 10px;
 }
+
+
+/* Existing CSS styles and any additional styles */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.toggle-buttons {
+    margin-bottom: 20px;
+}
+
+#members-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.members-list .member {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Omonu Johnson - WDD 230 - Web Frontend Development</title>
+        <meta name="description"
+            content="WDD 230 - Web Frontend Development course assignment portal by Omonu Johnson" />
+        <meta name="author" content="Omonu Johnson" />
+
+        <!-- Correct way to include Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
+
+        <!-- Link your CSS files using the correct method -->
+     <link rel="stylesheet" href="../styles/form.css">
+     <link rel="stylesheet" href="../styles/base.css">
+     <link rel="stylesheet" href="../styles/larger.css">
+
+    </head>
+
+    <body>
+    
+        <div id="menu"></div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://johnsonomonu.github.io/wdd230/chamber/">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li><a href="https://johnsonomonu.github.io/wdd230/form.html">Form</a></li>
+            </ul>
+        </nav>
+
+    <main>
+        <div class="container">
+            <div class="toggle-buttons">
+                <button id="grid-view">Grid View</button>
+                <button id="list-view">List View</button>
+            </div>
+            <div id="members-container" class="members-grid">
+                <!-- Member cards or list items will be added dynamically here -->
+            </div>
+        </div>
+    </main>
+
+        <footer>
+            <p>&copy; <span id="copyrightYear"></span> Omonu Johnson | | Nigeria</p>
+            <p id="lastModified"></p>
+        </footer>
+
+        <script src="../scripts/getDates.js"></script>
+        <script src="scripts/directory.js"></script>
+    </body>
+
+</html>
