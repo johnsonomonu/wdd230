@@ -1,0 +1,43 @@
+:root {
+    --main-color: #3366ff;
+    --secondary-color: #ff9933;
+    --font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"],
+input[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: var(--main-color);
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
