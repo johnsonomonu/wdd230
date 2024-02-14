@@ -42,3 +42,6 @@ input[type="submit"]:hover {
     background-color: var(--secondary-color);
 }
 
+.join-form{
+   margin: 0 auto;
+}

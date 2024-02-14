@@ -78,8 +78,11 @@ main>.map-hero {
         }
 
         .container-form {
-            display: flex;
-            margin-right: 0%;
-            margin-left: 50%;
+            
+           margin: auto 300px;
+           width: 100%;
+           padding: 10px;
+           
+           
         }
 }
