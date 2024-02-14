@@ -1,0 +1,69 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url": "week01/index.html",
+          "title": "Introduction to HTML"
+        },
+        {
+          "url": "week01/css-basics.html",
+          "title": "CSS Basics"
+        }
+      ]
+    },
+    {
+      "week": "Week 2",
+      "links": [
+        {
+          "url": "week02/responsive-design.html",
+          "title": "Responsive Design"
+        },
+        {
+          "url": "week02/javascript-basics.html",
+          "title": "JavaScript Basics"
+        }
+      ]
+    },
+    {
+      "week": "Week 3",
+      "links": [
+        {
+          "url": "week03/box-model.html",
+          "title": "Box Model"
+        },
+        {
+          "url": "week03/css-layouts.html",
+          "title": "CSS Layouts"
+        }
+      ]
+    },
+    {
+      "week": "Week 4",
+      "links": [
+        {
+          "url": "week04/js-functions.html",
+          "title": "JavaScript Functions"
+        },
+        {
+          "url": "week04/dom-manipulation.html",
+          "title": "DOM Manipulation"
+        }
+      ]
+    },
+    {
+      "week": "Week 5",
+      "links": [
+        {
+          "url": "week05/ajax-intro.html",
+          "title": "Introduction to AJAX"
+        },
+        {
+          "url": "week05/json-parsing.html",
+          "title": "JSON Parsing"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Omonu Johnson - WDD 230 - Web Frontend Development</title>
+        <meta name="description"
+            content="WDD 230 - Web Frontend Development course assignment portal by Omonu Johnson" />
+        <meta name="author" content="Omonu Johnson" />
+
+        <!-- Correct way to include Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap">
+
+        <!-- Link your CSS files using the correct method -->
+        <link rel="stylesheet" href="../styles/form.css">
+        <link rel="stylesheet" href="../styles/base.css">
+        <link rel="stylesheet" href="../styles/larger.css">
+
+
+    </head>
+
+    <body>
+        <div id="menu"></div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://johnsonomonu.github.io/wdd230/chamber/">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li><a href="https://johnsonomonu.github.io/wdd230/form.html">Form</a></li>
+            </ul>
+        </nav>
+
+       
+        <main class="container-form">
+             <h1 class="form-head">OpenWeatherMap.org API Test</h1>
+               <div class="container"></div>
+            <p class="">The current temperature in Trier, Germany is <span id="current-temp"></span></p>
+            <figure>
+                <img src="" alt="" id="weather-icon">
+                <figcaption></figcaption>
+            </figure>
+        </main>
+        <footer>
+            <p>&copy; <span id="copyrightYear"></span> Omonu Johnson | | Nigeria</p>
+            <p id="lastModified"></p>
+        </footer>
+
+        <script src="../scripts/getDates.js"></script>
+        <script src="../scripts/counter.js"></script>
+        <script src="./scripts/weather.js"></script>
+    </body>
+
+</html>
