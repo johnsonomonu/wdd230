@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   const membersContainer = document.getElementById("members-container");
-  const gridViewBtn = document.getElementById("grid-view");
-  const listViewBtn = document.getElementById("list-view");
 
   // Load members data from JSON
   fetch("data/members.json")
@@ -32,15 +30,4 @@ document.addEventListener("DOMContentLoaded", function () {
       membersContainer.appendChild(memberElement);
     });
   }
-
-  // Toggle between grid and list views
-  gridViewBtn.addEventListener("click", function () {
-    membersContainer.classList.remove("members-list");
-    membersContainer.classList.add("members-grid");
-  });
-
-  listViewBtn.addEventListener("click", function () {
-    membersContainer.classList.remove("members-grid");
-    membersContainer.classList.add("members-list");
-  });
 });

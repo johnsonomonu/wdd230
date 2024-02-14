@@ -38,3 +38,6 @@ function displayLinks(weeks) {
     linksContainer.appendChild(linksList);
   });
 }
+
+
+
