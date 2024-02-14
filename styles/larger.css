@@ -64,6 +64,10 @@ main>.map-hero {
           
         }
 
+        main>.form-header {
+            grid-column: span 2;
+        }
+
         .navigation {
             flex-direction: row;
         }
@@ -71,5 +75,11 @@ main>.map-hero {
         .navigation a {
             display: block;
             flex: 100%;
+        }
+
+        .container-form {
+            display: flex;
+            margin-right: 0%;
+            margin-left: 50%;
         }
 }

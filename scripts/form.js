@@ -13,3 +13,5 @@ function updateRating() {
   var pageRating = document.getElementById("pageRating").value;
   ratingDisplay.textContent = pageRating;
 }
+
+

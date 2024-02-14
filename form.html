@@ -9,20 +9,25 @@
          <meta name="author" content="Omonu Johnson" />
         <title>Form Page</title>
         <link rel="stylesheet" href="styles/form.css">
+          <link rel="stylesheet" href="styles/base.css">
+          <link rel="stylesheet" href="styles/larger.css">
     </head>
 
     <body>
-        <!-- Include header and navigation -->
-        <header>
-            <!-- Your header content here -->
-        </header>
-        <nav>
-            <!-- Your navigation content here -->
+        <div id="menu"></div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://johnsonomonu.github.io/wdd230/chamber/">Chamber</a></li>
+                <li><a href="#">Site Plan</a></li>
+                <li><a href="https://johnsonomonu.github.io/wdd230/form.html">Form</a></li>
+            </ul>
         </nav>
 
         <!-- Main content area -->
         <main>
-            <h1>Web Lab - Form validation</h1>
+            <h1 class="form-header">Web Lab - Form validation</h1>
+            <div class="container-form">
             <form action="record.html" method="get">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
@@ -46,14 +51,16 @@
                 <br>
                 <input type="submit" value="Submit">
             </form>
+            </div>
         </main>
 
-        <!-- Include footer -->
         <footer>
-         
+            <p>&copy; <span id="copyrightYear"></span> Omonu Johnson | | Nigeria</p>
+            <p id="lastModified"></p>
         </footer>
 
        <script src="./scripts/form.js"></script>
+        <script src="./scripts/getDates.js"></script>
     </body>
 
 </html>
