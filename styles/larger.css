@@ -1,12 +1,13 @@
+/* Larger screen CSS */
 @media screen and (min-width: 768px) {
     body {
-        font-size: 16px; 
+        font-size: 16px;
     }
 
     nav ul {
         display: flex;
         flex-direction: row;
-        float:right;
+        float: right;
     }
 
     nav li {
@@ -14,29 +15,26 @@
         margin-bottom: 0;
     }
 
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+    }
 
-main {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 20px;
+    main>h2 {
+        grid-column: span 2;
+    }
 
-}
+    main>.hero-image {
+        grid-column: span 2;
+    }
 
-main>h2 {
-    grid-column: span 2;
-}
-
-main>.hero-image {
-    grid-column: span 2;
-}
-
-
-main>.map-hero {
-    grid-column: span 2;
-}
+    main>.map-hero {
+        grid-column: span 2;
+    }
 
     main {
-        max-width: 1200px; 
+        max-width: 1200px;
         padding: 20px;
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -47,42 +45,37 @@ main>.map-hero {
         width: 100%;
     }
 
-   
-        h1 {
-            font-size: 2.5rem;
-            margin-left: 0;
-            text-align: center;
-        }
+    h1 {
+        font-size: 2.5rem;
+        margin-left: 0;
+        text-align: center;
+    }
 
-        h2 {
-            font-size: 2rem;
-            text-align: center;
-        }
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
 
-        #menu {
-            display: none;
-          
-        }
+    #menu {
+        display: none;
+    }
 
-        main>.form-header {
-            grid-column: span 2;
-        }
+    main>.form-header {
+        grid-column: span 2;
+    }
 
-        .navigation {
-            flex-direction: row;
-        }
+    .navigation {
+        flex-direction: row;
+    }
 
-        .navigation a {
-            display: block;
-            flex: 100%;
-        }
+    .navigation a {
+        display: block;
+        flex: 100%;
+    }
 
-        .container-form {
-            
-           margin: auto 300px;
-           width: 100%;
-           padding: 10px;
-           
-           
-        }
+    .container-form {
+        margin: auto 300px;
+        width: 100%;
+        padding: 10px;
+    }
 }

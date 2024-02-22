@@ -20,7 +20,7 @@ function displayLinks(weeks) {
   const linksContainer = document.getElementById("activity-links");
 
   weeks.forEach((week) => {
-    const weekHeader = document.createElement("h2");
+    const weekHeader = document.createElement("h4");
     weekHeader.textContent = week.week;
     linksContainer.appendChild(weekHeader);
 
